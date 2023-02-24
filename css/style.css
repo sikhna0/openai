@@ -1,0 +1,288 @@
+/* navbar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    /* font-weight: bold; */
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* title */
+#title {
+    text-align: center;
+    position: relative;
+}
+
+.OpenAI_Logocom {
+    position: relative;
+    width: 80%;
+    margin: 5% 0;
+}
+
+.colored-section {
+    background-color: #03001C;
+}
+
+.title-ai {
+    color: white;
+    margin-top: 4%;
+}
+
+.description-bg {
+    background: #678983;
+    color: white;
+    padding: 5% 10%;
+    animation: fadeBackground 6s;
+    animation-fill-mode: forwards;
+    text-align: center;
+}
+
+@keyframes fadeBackground {
+    from {
+        background-color: #47779e
+    }
+
+    to {
+        background-color: #301E67
+    }
+}
+
+.ai-icon {
+    width: 15%;
+    margin: 0 15% 4%;
+    padding-bottom: 40px;
+    line-height: 4rem;
+    position: relative;
+    animation: mymove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes mymove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 40px;
+    }
+}
+
+/* testimonials */
+#testimonials {
+    background-color: #89b6da;
+}
+
+.testimonial-text {
+    color: black;
+    padding: 5% 7%;
+}
+
+.icon {
+    text-align: center;
+    padding: 7% 5%;
+    position: relative;
+}
+
+.icon-comments {
+    padding-bottom: 4%;
+}
+
+/* pricing */
+.pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 10px;
+}
+
+.card-header {
+    background-color: #301E67;
+    color: white;
+}
+
+.card-body {
+    background-color: #89b6da;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* footer */
+#footer {
+    background-color: white;
+    text-align: left;
+}
+
+.icon-margin {
+    margin: 2% 0.5%;
+}
+
+.container {
+    text-align: center;
+}
+
+
+/* chatgpt */
+.openaigpt {
+    position: relative;
+    width: 100%;
+    margin: 10% 0;
+    animation:openaigpt 0.5s linear;
+}
+@keyframes openaigpt {
+    0%  {
+        transform: translateX(100%);
+    }
+    100%    {
+        transform: translateX(0);
+    }
+}
+
+.title-chatgpt {
+    line-height: 4rem;
+    /* padding-top: 30%; */
+    color: white;
+    margin: 10% 0;
+    font-size: 3rem;
+}
+
+/* description-bg-dl */
+#chatgpt-des {
+    background-color: #301E67;
+    padding: 5% 10%;
+    color: white;
+}
+
+.chatgpt-des-text {
+    padding: 5% 6% 3%;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+#test-chatgpt {
+    background-color: #89b6da;
+}
+
+.gpt-caption {
+    color: #301E67;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.chatgpt-btn {
+    position: relative;
+}
+/* overide btn */
+.btn{
+    background-color: #301E67;
+    color: white;
+}
+.btn:hover {
+    background-color: #6d4ccd;
+    color: white;
+}
+/* dall-e 2 */
+.title-dalle {
+    color: white;
+    line-height: 4rem;
+}
+
+.dalle {
+    width: 50%;
+    margin: 5% 0;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity:0 ;
+    }
+    100% {
+        opacity:1 ;
+    }
+}
+
+#des-dalle {
+    background-color: #301E67;
+}
+
+.dalle-text {
+    color: white;
+    padding: 5% 5%;
+    text-align: center;
+}
+
+.dalle-img {
+    text-align: center;
+}
+
+/* testimonial dalle */
+#test-dalle {
+    background-color: #89b6da;
+}
+
+.arrow {
+    position: absolute;
+    padding: 20% 38%;
+}
+
+.bg-arrow {
+    position: relative;
+    padding: 4% 10%;
+}
+
+.img-col {
+    padding : 6%;
+}
+
+/* whisper */
+
+.title-whisper {
+    color: white;
+    line-height: 3.5rem;
+}
+
+.whisper {
+    text-align: center;
+    padding-top: 2%;
+    margin: 5% 0;
+    animation: whisper 0.5s linear;
+}
+@keyframes whisper {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+#des-whisper {
+    background-color: #301E67;
+}
+
+.whisper-text {
+    color: white;
+}
+
+#test-whisper {
+    background-color: #89b6da;
+}
